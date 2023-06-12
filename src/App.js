@@ -13,7 +13,6 @@ function App() {
     axios.get('https://jsonplaceholder.typicode.com/users')
       .then((response) => {
         setUsersList(response.data)
-        // console.log(response.data)
       }).catch((error) => console.log(error))
   }, [])
 

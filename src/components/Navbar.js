@@ -7,7 +7,7 @@ const Navbar = () => {
         <Link to="/">
             <div className='navbar'>
                 <FaUserTie className='icon' />
-                <h1>User <span className='purple'>Search</span></h1>
+                <h1>Multipage <span className='purple'>User's App</span></h1>
             </div>
         </Link>
     );

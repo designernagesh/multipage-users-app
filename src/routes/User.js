@@ -40,17 +40,17 @@ const User = () => {
                                 <tr>
                                     <td>{user.id}</td>
                                     <td>{user.username}</td>
-                                    {/* <td>
-                                        <span>Street:</span> {user.address.street}<br />
-                                        <span>Suite:</span> {user.address.suite}<br />
-                                        <span>City:</span> {user.address.city}<br />
-                                        <span>Zipcode:</span> {user.address.zipcode}<br />
-                                    </td> */}
+                                    <td>
+                                        <span>Street:</span> {user?.address?.street}<br />
+                                        <span>Suite:</span> {user?.address?.suite}<br />
+                                        <span>City:</span> {user?.address?.city}<br />
+                                        <span>Zipcode:</span> {user?.address?.zipcode}<br />
+                                    </td>
                                     <td>{user.phone}</td>
-                                    {/* <td>
-                                        {user.company.name}<br />
-                                        {user.company.catchPhrase}
-                                    </td> */}
+                                    <td>
+                                        {user?.company?.name}<br />
+                                        {user?.company?.catchPhrase}
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
